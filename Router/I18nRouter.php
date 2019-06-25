@@ -29,7 +29,7 @@ use Symfony\Component\Routing\Exception\RouteNotFoundException;
 class I18nRouter extends Router {
     private $i18nLoaderId;
     private $container;
-    private $defaultLocale;
+    protected $defaultLocale;
 
     /**
      * Constructor.
